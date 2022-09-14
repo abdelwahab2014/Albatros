@@ -69,7 +69,7 @@ font-family: 'Times New Roman', Times, serif;
 .bgcolor{background-color: gray; color: white;}
 /*navbar control*/
 /* slideshow view */
-.slideshow{max-height: 80vh; }
+.slideshow{max-height: 100vh; object-fit: cover;}
 
 /*start css footer*/
 /* icons padding control*/

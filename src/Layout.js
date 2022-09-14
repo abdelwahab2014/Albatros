@@ -7,7 +7,7 @@ import './js';
 import './home.css';
 import './form-submission-handler';
 import Read from './ReadML';
-import AnchorLink from "react-anchor-link-smooth-scroll";
+
 
 
 
@@ -19,11 +19,10 @@ const Home= () => {
       <div id="home" className='unselectable'> 
               
 {/*slideshow start*/}
-<div >
+<div>
 <Carousel fade >
 
   <Carousel.Item fade>
-  <div>
     <img
       className="slideshow d-block w-100"
       src="./htmlgames.jpg"
@@ -32,7 +31,7 @@ const Home= () => {
     <Carousel.Caption>
       <h3>Games Solutions</h3>  
     </Carousel.Caption>
-    </div>
+    
   </Carousel.Item>
 
   
@@ -68,18 +67,17 @@ const Home= () => {
       alt="videos"
     />
 
-    <Carousel.Caption>
-      <h3>Content Solutions</h3>
-      
-    </Carousel.Caption>
+    <Carousel.Caption><h3>Content Solutions</h3></Carousel.Caption>
   </Carousel.Item>
+
 </Carousel>
 </div>
 {/*slideshow end*/}
+
 {/* Header control */}
 <div className="container header">
 <div className="inner-header flex">
-<h1 className='font font-effect-emboss' > A L B A T R O S 
+<h1 className='font font-effect-emboss hoverable' > A L B A T R O S 
     </h1>
 
  
@@ -106,20 +104,43 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
   <div className='home_welcome  '>
  
   <p className='textalign text_color'>
-  
-  
- 
   Albatros Engineering Co.LTD is one of the pioneering companies in Sudan working  in The field of engineering 
   contracting in addition to distributing digital content through value-added services. <br/>
-
-
-
-    
   <br/>
-  <span><i class="fa-solid fa-gem"></i>  </span>Offering the best & valuable services for both local operators & thier customers like:
-  <br/> <img src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Message-mobile-application-color-line-others-cattaleeya-thongsriphong.png"/>
+  <span><i className="fa-solid fa-gem  btn-floating pulse"></i>  </span>Offering the best  valuable services for both local operators  thier customers like:<br/>
+  <br/> 
+
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <img src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Message-mobile-application-color-line-others-cattaleeya-thongsriphong.png"/>
   <u data-toggle="tooltip" data-placement="bottom"
    title="Short Message Service"><i class="fa-solid fa-message-sms"></i>Short Message Service</u><br/>
+
+
+
+
+
+
+
+
+
+
+
+
    through this service our company tend to provide a range of sms services to customers with different content and valuable meaning.<br/>
 <img src="https://img.icons8.com/arcade/64/000000/experimental-medium-volume-arcade.png"/>
 <u data-toggle="tooltip" data-placement="top" title="ring back tone">Ring Back Tone</u> <br/>
@@ -368,8 +389,7 @@ so support us with your feedback to bring most out of effort to statisfy your ne
 
     <div className=" logo_contact  col-sm-12 col-md-6 col-lg-6">
     <form  method='POST' class="gform"  target="_self"
-    action="http://localhost/albatrosdb/albatrosdb.php"
-    data-email="abdelwahabadam014@gmail.com"
+   
     
     >
     <div class="mb-3 mt-3">
@@ -378,7 +398,7 @@ so support us with your feedback to bring most out of effort to statisfy your ne
     </div>
     <div>
       
-    <input type="email" className="form-control" placeholder="Enter E-mail" name="email" required/>
+    <input type="email" className="form-control" placeholder="Enter E-mail" id="email" required/>
     </div>
     <textarea  class="form-control" placeholder='Your Message'  name="message"  required ></textarea>
     <button type="submit" className="btn" id='mySubmit'>
@@ -395,6 +415,9 @@ so support us with your feedback to bring most out of effort to statisfy your ne
 
 {/*main div end */}  
 </div>
+
+
+
 
       </div>
   )

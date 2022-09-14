@@ -15,7 +15,7 @@ render() {  
         return ( 
 <div> 
 {
-  this.state.checked ? (<div>We are proud of what Albatros achieved in its trail from the beginning till now which is vey clear in the revenue and
+  this.state.checked ? (<div >We are proud of what Albatros achieved in its trail from the beginning till now which is vey clear in the revenue and
  the rewards we have gained. The company has achieved many awards, including the Sudanese Award for Information Technology 
  Communication, 2017, As in the previous year our company was awarded in appreciation of achieving second highest growth in
   2020 monthly VAS revenue from Sudani Telecom.
@@ -32,8 +32,8 @@ render() {  
 
 
 </div>
-  <input type="button" onClick={this.Change_State} value="Read Less"  /></div>):
-  (<input type="button" onClick={this.Change_State} value="Read More ..."  />)
+  <input type="button" className="hide" onClick={this.Change_State} value="Read Less"  /></div>):
+  (<input type="button"  onClick={this.Change_State} value="Read More ..."  />)
 
 }
  </div>
