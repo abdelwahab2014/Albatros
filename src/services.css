@@ -12,11 +12,11 @@
   .img_row_ser{padding-left: 300px;padding-right: 300px;}
   }
 
-  @media (max-width: 1100px) {
+@media (max-width: 1100px) {
     .img_row_ser{padding-left: 200px;padding-right: 200px;}
     }
 
-    @media (max-width: 1000px) {
+@media (max-width: 1000px) {
       .img_row_ser{padding-left: 150px;padding-right: 150px;}
       }
 
@@ -26,11 +26,11 @@
   }
 
 
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
       .img_row_ser{padding-left: 50px;padding-right: 50px;}
       }
 
-      @media (max-width: 500px) {
+@media (max-width: 500px) {
         .img_row_ser{padding-left: 3px;padding-right: 3px;}
         
         
@@ -57,12 +57,12 @@
 
 .figure-caption{margin-top: -20px;}
 
-.icon-container {
+.icon-container1 {
   display: inline-block;
   height: 150px;
 }
 
-.servicebgcolor{
+.servicebgcolor1{
    padding-top: 40px;color:white;
    background-color: rgb(0, 89, 255); 
    padding-bottom: 0.8rem; }

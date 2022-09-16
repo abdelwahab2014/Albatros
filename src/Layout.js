@@ -5,7 +5,7 @@ import './about.css';
 import './App.css';
 import './js';
 import './home.css';
-import './form-submission-handler';
+
 import Read from './ReadML';
 
 
@@ -107,51 +107,29 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
   Albatros Engineering Co.LTD is one of the pioneering companies in Sudan working  in The field of engineering 
   contracting in addition to distributing digital content through value-added services. <br/>
   <br/>
-  <span><i className="fa-solid fa-gem  btn-floating pulse"></i>  </span>Offering the best  valuable services for both local operators  thier customers like:<br/>
+  <span><i className="fa-solid fa-gem  btn-floating pulse"></i>  </span>Offering the best & valuable services for both local operators & thier customers:<br/>
   <br/> 
 
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
- 
+ <div className='row'>
+<div className='col-sm-12 col-md-4 col-lg-4'> 
   <img src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Message-mobile-application-color-line-others-cattaleeya-thongsriphong.png"/>
   <u data-toggle="tooltip" data-placement="bottom"
-   title="Short Message Service"><i class="fa-solid fa-message-sms"></i>Short Message Service</u><br/>
+   title="Short Message Service"><i class="fa-solid fa-message-sms"></i>Short Message Service</u></div>
 
-
-
-
-
-
-
-
-
-
-
-
-   through this service our company tend to provide a range of sms services to customers with different content and valuable meaning.<br/>
+<div className='col-sm-12 col-md-4 col-lg-4'> 
 <img src="https://img.icons8.com/arcade/64/000000/experimental-medium-volume-arcade.png"/>
-<u data-toggle="tooltip" data-placement="top" title="ring back tone">Ring Back Tone</u> <br/>
-A Ringback Tone is that ringing sound you hear when you try to call someone. Your carrier network provides this sound to your callers when
- they are trying to connect to you. With LISTEN, you have the option to replace that ringing sound with music or voice status messages.<br/> 
+<u data-toggle="tooltip" data-placement="top" title="ring back tone">RingBack Tone</u> </div>
  
 
+ <div className='col-sm-12 col-md-4 col-lg-4'> 
 <img src="https://img.icons8.com/external-flaticons-flat-circular-flat-icons/64/000000/external-ivr-automation-technology-flaticons-flat-circular-flat-icons.png"/>
-<u data-toggle="tooltip" data-placement="top" title="interactive voice response"> interactive Voice Response</u> <br/>
-(IVR) is an automated telephony system that interacts with callers, gathers information and routes calls to the appropriate recipients.
-<br/> 
+<u data-toggle="tooltip" data-placement="top" title="interactive voice response"> interactive Voice Response</u> </div>
+ 
+ </div>
+
+
+ 
+
 <div >
   
   <div class="w3-panel w3-leftbar w3-sand  w3-orange ">
@@ -199,55 +177,70 @@ const Services = () => {
     increase scale.
     </p></p></div>
   {/* Services Images start */}   
-  <div>
-  <div className="reveal fade-bottom  row img_row_ser text-center servicebgcolor">
+  
+<div className="reveal fade-bottom  row ">
+
+<div className="reveal fade-bottom col-3 col-sm-6 col-md-6 col-lg-3">
+  <i className="servicebgcoloricon bi-camera-reels "></i></div>
 
   <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
-    <div class="icon-container">
+  <i className="servicebgcoloricon  bi-camera-reels "></i></div>
+  
+<div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+  <i className="servicebgcoloricon bi-camera-reels "></i></div>
+
+  <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+  <i className="servicebgcoloricon  bi-camera-reels "></i></div>
+
+
+  </div>
+
+ {/* <!--div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
+    <div>
     <i className="servicebgcoloricon large_icon bi-camera-reels myDIV "></i>
     </div>
     <figcaption class="figure-caption text-center colorize ">Video Portals</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi bi-markdown myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">CMS</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi bi-gem myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">VAS</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi-controller myDIV"></i></div>
     
     <figcaption class="figure-caption text-center colorize ">Games Portals</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi bi-filetype-html myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">HTML 5 Games</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi  bi-power myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">IoT</figcaption>
     </div>
     
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi  bi-music-player myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">IVR</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi  bi bi-code-slash myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">Web Development</figcaption>
     </div>
     
 
-  </div>
-</div>
+    </div>*/}
+
 {/* Services Images end */}  
 
 
@@ -432,12 +425,15 @@ const Layout = () => {
 <nav class="navbar navbar-expand-lg navbar-gray bg-color fixed-top ">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="./logo.png" className='round_logo' alt="logo" height="70"/>
+      <img src="./logo.png" className='round_logo' alt="logo" height="50"/>
     </a>
+
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
       <span class="navbar-toggler-icon"></span>
     </button>
+
+   
 
 
   

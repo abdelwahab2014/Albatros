@@ -397,10 +397,10 @@ footer .social-icon li i:hover {
 
 
 .large_icon{font-size: 5em;}
-.bg-color{background-color: #444444;color: white;}
-.round_logo{border-radius: 40%; }
+.bg-color{background-color: gray;color: black;}
+.round_logo{border-radius: 80%; }
 
-.navbar-toggler-icon{background-color: rgb(51, 50, 50); height: 0.2em;}
+.navbar-toggler-icon{background-color: rgb(241, 20, 20); height: 0.7em;}
 
 
 
