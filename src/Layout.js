@@ -422,6 +422,7 @@ const Layout = () => {
   return (
     <div >
 {/*navbar test*/}
+<div className='container'>
 <nav class="navbar navbar-expand-lg navbar-gray bg-color fixed-top ">
   <div class="container">
     <a class="navbar-brand" href="#">
@@ -458,6 +459,7 @@ const Layout = () => {
     </div>
   </div>
 </nav>
+</div>
 {/*navbar test */}
 <br/>
       <Home/>
