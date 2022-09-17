@@ -447,7 +447,7 @@ const Layout = () => {
     <div >
 {/*navbar test*/}
 <div className='container'>
-<nav class="navbar navbar-expand-lg navbar-gray bg-color fixed-top ">
+<nav class="navbar navbar-expand-lg navbar-gray bg-color fixed-top " id="navbar_id">
   <div className="container">
     <a class="navbar-brand" href="#">
       <img src="./logo.png" className='round_logo' alt="logo" height="50"/>

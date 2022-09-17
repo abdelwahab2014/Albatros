@@ -37,3 +37,20 @@ $(function () {
 
 
 
+
+
+
+
+
+
+
+$(window).on('resize', function() {
+  var win = $(this);
+  if (win.width() < 600) {
+
+    $('#navbar_id').addClass('container');
+
+  } else {
+    $('#navbar_id').removeClass('container');
+  }
+});
