@@ -184,19 +184,22 @@ const Services = () => {
     </p></p></div>
   {/* Services Images start */}   
   
-<div className="reveal fade-bottom  row ">
+<div className="reveal fade-bottom row ">
 
-<div className="reveal fade-bottom col-3 col-sm-6 col-md-6 col-lg-3">
-  <i className="servicebgcoloricon bi-camera-reels "></i></div>
+<div className="reveal fade-bottom  col-6 col-md-6 col-lg-3">
+<img src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/96/000000/external-video-stay-at-home-xnimrodx-lineal-color-xnimrodx.png"/>
+ </div>
 
-  <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
-  <i className="servicebgcoloricon  bi-camera-reels "></i></div>
+  <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
+  <img src="https://img.icons8.com/emoji/96/000000/video-game.png"/>
+</div>
   
-<div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
-  <i className="servicebgcoloricon bi-camera-reels "></i></div>
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
+<img src="https://img.icons8.com/external-smashingstocks-thin-outline-color-smashing-stocks/96/000000/external-News-marketing-smashingstocks-thin-outline-color-smashing-stocks.png"/></div>
 
-  <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
-  <i className="servicebgcoloricon  bi-camera-reels "></i></div>
+  <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
+  <img src="https://img.icons8.com/external-flat-02-chattapat-/64/000000/external-smart-internet-of-things-flat-02-chattapat-.png"/>
+ </div>
 
 
   </div>
@@ -323,19 +326,19 @@ Our company has more than 4M subscribers and over 85 clients.
     </p>
 
 <div className=" reveal fade-bottom  row img_row_ser text-center partnerbgcolor">
-<div className="reveal fade-bottom col-sm-12 col-md-6 col-lg-3 ">
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3 ">
 <img className="img-fluid imagesize myDIV" src="./ZAIN2.jpg" alt="MTN" /> 
 </div>
 
-<div className="reveal fade-bottom col-sm-12 col-md-6 col-lg-3 ">
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3 ">
 <img className="img-fluid imagesize  myDIV " src="./MTN.jpg" alt="MTN" />
 </div>
 
-<div className="reveal fade-bottom col-sm-12 col-md-6 col-lg-3">
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
 <img className="img-fluid imagesize myDIV" src="./SUDANI.jpg" alt="MTN" /> 
 
 </div>
-<div className="reveal fade-bottom col-sm-12 col-md-6 col-lg-3 ">
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3 ">
 <img className="img-fluid imagesize  myDIV" src="./canar.jpg" alt="MTN" /> 
 
 </div>
@@ -516,13 +519,12 @@ const Layout = () => {
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5">
-                        <p class="copyright text-uppercase">Copyright © ALBATROS Co.ltd
+                    <div class="col-5">
+                        © ALBATROS Co.ltd
                          
-                        </p>
-                        
+                      
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                         <ul >
                            <li class="nav-item "><a  className='below_navbar' href="#home">HOME</a></li>
                            <li class="nav-item "><a   className='below_navbar' href="#services">SERVICES</a></li>
