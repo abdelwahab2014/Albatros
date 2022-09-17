@@ -187,18 +187,31 @@ const Services = () => {
 <div className="reveal fade-bottom row ">
 
 <div className="reveal fade-bottom  col-6 col-md-6 col-lg-3">
-<img src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/96/000000/external-video-stay-at-home-xnimrodx-lineal-color-xnimrodx.png"/>
+<figure class="figure">
+  <a href="http://tagpress.sd/" target="blank"><img src="./Tagpres_sudani.png"  alt="Tagpres sudani" /></a>
+  <figcaption class="figure-caption text-center">Sudani</figcaption>
+</figure>
  </div>
 
   <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
-  <img src="https://img.icons8.com/emoji/96/000000/video-game.png"/>
+  <figure class="figure">
+  <a href="http://la3btna.com/" target="blank"><img src="./operators/sudanil.png"  className='la3btna' alt="La3btna sudani" /></a>
+  <figcaption class="figure-caption text-center">Sudani</figcaption>
+</figure>
 </div>
   
 <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
-<img src="https://img.icons8.com/external-smashingstocks-thin-outline-color-smashing-stocks/96/000000/external-News-marketing-smashingstocks-thin-outline-color-smashing-stocks.png"/></div>
+<figure class="figure">
+  <a href="http://tagpres.com/" target="blank"><img src="./operators/Tagpres_zain.jpeg"  className='la3btna' alt="Tagpres zain" /></a>
+  <figcaption class="figure-caption text-center">Zain</figcaption>
+</figure>
+</div>
 
   <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
-  <img src="https://img.icons8.com/external-flat-02-chattapat-/64/000000/external-smart-internet-of-things-flat-02-chattapat-.png"/>
+  <figure class="figure">
+  <a href="http://41.95.192.128/GamePortalZain/index.php" target="blank"><img src="./operators/la3btna_zain.jpeg"  className='la3btna' alt="La3btna zain" /></a>
+  <figcaption class="figure-caption text-center">Zain</figcaption>
+</figure>
  </div>
 
 
@@ -208,7 +221,7 @@ const Services = () => {
     <div>
     <i className="servicebgcoloricon large_icon bi-camera-reels myDIV "></i>
     </div>
-    <figcaption class="figure-caption text-center colorize ">Video Portals</figcaption>
+    
     </div>
 
     <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">

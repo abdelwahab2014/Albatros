@@ -55,7 +55,8 @@
 
 
 
-.figure-caption{margin-top: -20px;}
+.figure-caption{margin-top: 10px; color: black; font-weight: bold; text-align: center; }
+.la3btna{width: 120px; height: 100px;}
 
 .icon-container1 {
   display: inline-block;
