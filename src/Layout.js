@@ -290,25 +290,26 @@ const About = () => {
   Know more about Albatros histroy and development path through time and what's way that our company takes to gain this great result
    </p>
 <div className='container'>
-<div className="row">
-    <div className="div_hover reveal fade-left about_left_div col-sm-6 col-md-6 col-lg-6">
+<div className="row container">
+    <div className="div_hover reveal fade-left about_left_div div_border_shape col-sm-6 col-md-6 col-lg-6">
     Albatros Engineering Co.LTD is one of the pioneering companies in Sudan working since 2008 in distributing digital
      content through value-added services. 
     </div>
     <div className="about_right_div col-sm-6 col-md-6 col-lg-6"></div>
   </div>
 
-  <div className="row">
+  <div className="row container">
     <div className="about_right_div col-sm-6 col-md-6 col-lg-6"></div>
     <div className="div_hover reveal fade-right about_left_div div_border_shape col-sm-12 col-md-9 col-lg-6">
-    working with the biggest mobile network operators  inside Sudan:<br/> Zain, Sudani, MTN.
+    working with the biggest mobile network operators  inside Sudan :<br/> Zain, Sudani, MTN.<br/>
+    Offering for them the best services ever!
      
     </div>
    
   </div>
 
 
-  <div className="row">
+  <div className="row container">
     <div className="div_hover reveal fade-left about_left_div div_border_shape2 col-sm-12 col-md-9 col-lg-6">
     providing all needs on videos and games through making partnerships inside and outside the country
 Our company has more than 4M subscribers and over 85 clients.  
@@ -316,7 +317,7 @@ Our company has more than 4M subscribers and over 85 clients.
     <div className="about_right_div col-sm-12 col-md-9 col-lg-6"></div>
   </div>
 
-  <div className="row">
+  <div className="row container">
     <div className=" about_right_div col-sm-12 col-md-9 col-lg-6"></div>
     <div className="div_hover reveal fade-right about_left_div div_border_shape  col-sm-12 col-md-9 col-lg-6">
     The leading company in domain in digital content providing and new technologies acquring to offer the most important part of applying new ideas.  
@@ -398,8 +399,9 @@ so support us with your feedback to bring most out of effort to statisfy your ne
  <div className="row  form">
 
     <div className="logo_contact chat_font col-sm-12 col-md-6 col-lg-6">
-    Let's Talk<br/>
-    Messages is an SMS, RCS, and instant messaging application developed by Google for its Android mobile operating system. A web interface is also available. Launched in 2014, it has supported RCS messaging since 2018, marketed as "chat features". Wikipedia
+    Let's Talk !<br/>
+    Albatros co.ltd is Welcoming any suggestion about improvimg and providing a unique services for all type of customers, so support us with your vauable comment and advice.
+<br/> Thanks for visiting our website.
     </div>
 
     <div className=" logo_contact  col-sm-12 col-md-6 col-lg-6">
@@ -445,7 +447,7 @@ const Layout = () => {
     <div >
 {/*navbar test*/}
 <div className='container'>
-<nav class="navbar navbar-expand-lg navbar-gray bg-color fixed-top ">
+<nav class="navbar navbar-expand-lg navbar-gray bg-color fixed-top container">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="./logo.png" className='round_logo' alt="logo" height="50"/>
