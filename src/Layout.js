@@ -107,23 +107,29 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
   Albatros Engineering Co.LTD is one of the pioneering companies in Sudan working  in The field of engineering 
   contracting in addition to distributing digital content through value-added services. <br/>
   <br/>
-  <span><i className="fa-solid fa-gem  btn-floating pulse"></i>  </span>Offering the best & valuable services for both local operators & thier customers:<br/>
+  <span><i className="fa-solid fa-gem  btn-floating pulse"></i>  </span>Offering the best & valuable services for local operators & thier customers:<br/>
   <br/> 
 
  <div className='row'>
-<div className='col-sm-12 col-md-4 col-lg-4'> 
-  <img src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Message-mobile-application-color-line-others-cattaleeya-thongsriphong.png"/>
-  <u data-toggle="tooltip" data-placement="bottom"
-   title="Short Message Service"><i class="fa-solid fa-message-sms"></i>Short Message Service</u></div>
+<div className='col-6 col-md-6 col-lg-3' > 
+  <img className='fa-shake icon_delay'
+   src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Message-mobile-application-color-line-others-cattaleeya-thongsriphong.png"/>
+  <u data-toggle="tooltip" data-placement="top"
+   title="Short Message Service"><i class="fa-solid fa-message-sms "></i>SMS</u></div>
 
-<div className='col-sm-12 col-md-4 col-lg-4'> 
-<img src="https://img.icons8.com/arcade/64/000000/experimental-medium-volume-arcade.png"/>
-<u data-toggle="tooltip" data-placement="top" title="ring back tone">RingBack Tone</u> </div>
+<div className='col-6 col-md-6 col-lg-3'> 
+<img className='fa-beat icon_delay' src="https://img.icons8.com/arcade/64/000000/experimental-medium-volume-arcade.png"/>
+<u data-toggle="tooltip" data-placement="top" title="ring back tone">RBT</u> </div>
  
 
- <div className='col-sm-12 col-md-4 col-lg-4'> 
-<img src="https://img.icons8.com/external-flaticons-flat-circular-flat-icons/64/000000/external-ivr-automation-technology-flaticons-flat-circular-flat-icons.png"/>
-<u data-toggle="tooltip" data-placement="top" title="interactive voice response"> interactive Voice Response</u> </div>
+ <div className='col-6 col-md-6 col-lg-3 mt-3'> 
+<img className='fa-beat icon_delay' src="https://img.icons8.com/external-flaticons-flat-circular-flat-icons/64/000000/external-ivr-automation-technology-flaticons-flat-circular-flat-icons.png"/>
+<u data-toggle="tooltip" data-placement="top" title="interactive voice response"> IVR</u> </div>
+
+
+<div className='col-6 col-md-6 col-lg-3 mt-3'> 
+<img className='fa-beat icon_delay' src="https://img.icons8.com/nolan/64/video.png"/>
+<u data-toggle="tooltip" data-placement="top" title="Games and Videos"> Digital Content</u> </div>
  
  </div>
 

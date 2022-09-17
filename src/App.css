@@ -415,6 +415,9 @@ footer .social-icon li i:hover {
 .wel-msg{font-size: 2rem;}
 
 
+/*icons speed*/
+.icon_delay{--fa-animation-duration: 3s;}
+
 
 
 
