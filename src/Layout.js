@@ -405,7 +405,9 @@ so support us with your feedback to bring most out of effort to statisfy your ne
     </div>
 
     <div className=" logo_contact  col-sm-12 col-md-6 col-lg-6">
-    <form  method='POST' class="gform"  target="_self"
+    <form  method='POST' class="gform"  target="self" id='form_id' 
+    action='https://script.google.com/macros/s/AKfycbz5eMi-3xklbB98qY9UPLNhjTYDBM9IbpPfDYNKId702t0ZVp7mXzCWi3clpY4xfOBO/exec'
+    data-email = "abdelwahabadam014@gmail.com"
    
     
     >
@@ -415,7 +417,7 @@ so support us with your feedback to bring most out of effort to statisfy your ne
     </div>
     <div>
       
-    <input type="email" className="form-control" placeholder="Enter E-mail" id="email" required/>
+    <input type="email" className="form-control" placeholder="Enter E-mail"  name="email" id="email" required/>
     </div>
     <textarea  class="form-control" placeholder='Your Message'  name="message"  required ></textarea>
     <button type="submit" className="btn" id='mySubmit'>
