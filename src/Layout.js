@@ -5,7 +5,7 @@ import './about.css';
 import './App.css';
 import './js';
 import './home.css';
-import './form-submission-handler';
+
 import Read from './ReadML';
 
 
@@ -107,51 +107,35 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
   Albatros Engineering Co.LTD is one of the pioneering companies in Sudan working  in The field of engineering 
   contracting in addition to distributing digital content through value-added services. <br/>
   <br/>
-  <span><i className="fa-solid fa-gem  btn-floating pulse"></i>  </span>Offering the best  valuable services for both local operators  thier customers like:<br/>
+  <span><i className="fa-solid fa-gem  btn-floating pulse"></i>  </span>Offering the best & valuable services for local operators & thier customers:<br/>
   <br/> 
 
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
- 
-  <img src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Message-mobile-application-color-line-others-cattaleeya-thongsriphong.png"/>
-  <u data-toggle="tooltip" data-placement="bottom"
-   title="Short Message Service"><i class="fa-solid fa-message-sms"></i>Short Message Service</u><br/>
+ <div className='row'>
+<div className='col-6 col-md-6 col-lg-3' > 
+  <img className='fa-shake icon_delay'
+   src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Message-mobile-application-color-line-others-cattaleeya-thongsriphong.png"/>
+  <u data-toggle="tooltip" data-placement="top"
+   title="Short Message Service"><i class="fa-solid fa-message-sms "></i>SMS</u></div>
 
-
-
-
-
-
-
-
-
-
-
-
-   through this service our company tend to provide a range of sms services to customers with different content and valuable meaning.<br/>
-<img src="https://img.icons8.com/arcade/64/000000/experimental-medium-volume-arcade.png"/>
-<u data-toggle="tooltip" data-placement="top" title="ring back tone">Ring Back Tone</u> <br/>
-A Ringback Tone is that ringing sound you hear when you try to call someone. Your carrier network provides this sound to your callers when
- they are trying to connect to you. With LISTEN, you have the option to replace that ringing sound with music or voice status messages.<br/> 
+<div className='col-6 col-md-6 col-lg-3'> 
+<img className='fa-beat icon_delay' src="https://img.icons8.com/arcade/64/000000/experimental-medium-volume-arcade.png"/>
+<u data-toggle="tooltip" data-placement="top" title="ring back tone">RBT</u> </div>
  
 
-<img src="https://img.icons8.com/external-flaticons-flat-circular-flat-icons/64/000000/external-ivr-automation-technology-flaticons-flat-circular-flat-icons.png"/>
-<u data-toggle="tooltip" data-placement="top" title="interactive voice response"> interactive Voice Response</u> <br/>
-(IVR) is an automated telephony system that interacts with callers, gathers information and routes calls to the appropriate recipients.
-<br/> 
+ <div className='col-6 col-md-6 col-lg-3 mt-3'> 
+<img className='fa-beat icon_delay' src="https://img.icons8.com/external-flaticons-flat-circular-flat-icons/64/000000/external-ivr-automation-technology-flaticons-flat-circular-flat-icons.png"/>
+<u data-toggle="tooltip" data-placement="top" title="interactive voice response"> IVR</u> </div>
+
+
+<div className='col-6 col-md-6 col-lg-3 mt-3'> 
+<img className='fa-beat icon_delay' src="https://img.icons8.com/nolan/64/video.png"/>
+<u data-toggle="tooltip" data-placement="top" title="Games and Videos"> Digital Content</u> </div>
+ 
+ </div>
+
+
+ 
+
 <div >
   
   <div class="w3-panel w3-leftbar w3-sand  w3-orange ">
@@ -199,55 +183,86 @@ const Services = () => {
     increase scale.
     </p></p></div>
   {/* Services Images start */}   
-  <div>
-  <div className="reveal fade-bottom  row img_row_ser text-center servicebgcolor">
+  
+<div className="reveal fade-bottom row ">
 
-  <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
-    <div class="icon-container">
+<div className="reveal fade-bottom  col-6 col-md-6 col-lg-3">
+<figure class="figure">
+  <a href="http://tagpress.sd/" target="blank"><img src="./Tagpres_sudani.png"  alt="Tagpres sudani" /></a>
+  <figcaption class="figure-caption text-center">Sudani</figcaption>
+</figure>
+ </div>
+
+  <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
+  <figure class="figure">
+  <a href="http://la3btna.com/" target="blank"><img src="./operators/sudanil.png"  className='la3btna' alt="La3btna sudani" /></a>
+  <figcaption class="figure-caption text-center">Sudani</figcaption>
+</figure>
+</div>
+  
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
+<figure class="figure">
+  <a href="http://tagpres.com/" target="blank"><img src="./operators/Tagpres_zain.jpeg"  className='la3btna' alt="Tagpres zain" /></a>
+  <figcaption class="figure-caption text-center">Zain</figcaption>
+</figure>
+</div>
+
+  <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
+  <figure class="figure">
+  <a href="http://41.95.192.128/GamePortalZain/index.php" target="blank"><img src="./operators/la3btna_zain.jpeg"  className='la3btna' alt="La3btna zain" /></a>
+  <figcaption class="figure-caption text-center">Zain</figcaption>
+</figure>
+ </div>
+
+
+  </div>
+
+ {/* <!--div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
+    <div>
     <i className="servicebgcoloricon large_icon bi-camera-reels myDIV "></i>
     </div>
-    <figcaption class="figure-caption text-center colorize ">Video Portals</figcaption>
+    
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi bi-markdown myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">CMS</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi bi-gem myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">VAS</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi-controller myDIV"></i></div>
     
     <figcaption class="figure-caption text-center colorize ">Games Portals</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi bi-filetype-html myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">HTML 5 Games</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi  bi-power myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">IoT</figcaption>
     </div>
     
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi  bi-music-player myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">IVR</figcaption>
     </div>
 
-    <div className="reveal fade-bottom col-sm-6 col-md-6 col-lg-3">
+    <div className="reveal fade-bottom col-sm-3 col-md-6 col-lg-3">
     <div class="icon-container"><i className="servicebgcoloricon large_icon bi  bi bi-code-slash myDIV"></i></div>
     <figcaption class="figure-caption text-center colorize ">Web Development</figcaption>
     </div>
     
 
-  </div>
-</div>
+    </div>*/}
+
 {/* Services Images end */}  
 
 
@@ -275,25 +290,26 @@ const About = () => {
   Know more about Albatros histroy and development path through time and what's way that our company takes to gain this great result
    </p>
 <div className='container'>
-<div className="row">
-    <div className="div_hover reveal fade-left about_left_div col-sm-6 col-md-6 col-lg-6">
+<div className="row container">
+    <div className="div_hover reveal fade-left about_left_div div_border_shape col-sm-6 col-md-6 col-lg-6">
     Albatros Engineering Co.LTD is one of the pioneering companies in Sudan working since 2008 in distributing digital
      content through value-added services. 
     </div>
     <div className="about_right_div col-sm-6 col-md-6 col-lg-6"></div>
   </div>
 
-  <div className="row">
+  <div className="row container">
     <div className="about_right_div col-sm-6 col-md-6 col-lg-6"></div>
     <div className="div_hover reveal fade-right about_left_div div_border_shape col-sm-12 col-md-9 col-lg-6">
-    working with the biggest mobile network operators  inside Sudan:<br/> Zain, Sudani, MTN.
+    working with the biggest mobile network operators  inside Sudan :<br/> Zain, Sudani, MTN.<br/>
+    Offering for them the best services ever!
      
     </div>
    
   </div>
 
 
-  <div className="row">
+  <div className="row container">
     <div className="div_hover reveal fade-left about_left_div div_border_shape2 col-sm-12 col-md-9 col-lg-6">
     providing all needs on videos and games through making partnerships inside and outside the country
 Our company has more than 4M subscribers and over 85 clients.  
@@ -301,7 +317,7 @@ Our company has more than 4M subscribers and over 85 clients.
     <div className="about_right_div col-sm-12 col-md-9 col-lg-6"></div>
   </div>
 
-  <div className="row">
+  <div className="row container">
     <div className=" about_right_div col-sm-12 col-md-9 col-lg-6"></div>
     <div className="div_hover reveal fade-right about_left_div div_border_shape  col-sm-12 col-md-9 col-lg-6">
     The leading company in domain in digital content providing and new technologies acquring to offer the most important part of applying new ideas.  
@@ -324,19 +340,19 @@ Our company has more than 4M subscribers and over 85 clients.
     </p>
 
 <div className=" reveal fade-bottom  row img_row_ser text-center partnerbgcolor">
-<div className="reveal fade-bottom col-sm-12 col-md-6 col-lg-3 ">
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3 ">
 <img className="img-fluid imagesize myDIV" src="./ZAIN2.jpg" alt="MTN" /> 
 </div>
 
-<div className="reveal fade-bottom col-sm-12 col-md-6 col-lg-3 ">
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3 ">
 <img className="img-fluid imagesize  myDIV " src="./MTN.jpg" alt="MTN" />
 </div>
 
-<div className="reveal fade-bottom col-sm-12 col-md-6 col-lg-3">
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
 <img className="img-fluid imagesize myDIV" src="./SUDANI.jpg" alt="MTN" /> 
 
 </div>
-<div className="reveal fade-bottom col-sm-12 col-md-6 col-lg-3 ">
+<div className="reveal fade-bottom col-6 col-md-6 col-lg-3 ">
 <img className="img-fluid imagesize  myDIV" src="./canar.jpg" alt="MTN" /> 
 
 </div>
@@ -383,12 +399,15 @@ so support us with your feedback to bring most out of effort to statisfy your ne
  <div className="row  form">
 
     <div className="logo_contact chat_font col-sm-12 col-md-6 col-lg-6">
-    Let's Talk<br/>
-    Messages is an SMS, RCS, and instant messaging application developed by Google for its Android mobile operating system. A web interface is also available. Launched in 2014, it has supported RCS messaging since 2018, marketed as "chat features". Wikipedia
+    Let's Talk !<br/>
+    Albatros co.ltd is Welcoming any suggestion about improvimg and providing a unique services for all type of customers, so support us with your vauable comment and advice.
+<br/> Thanks for visiting our website.
     </div>
 
     <div className=" logo_contact  col-sm-12 col-md-6 col-lg-6">
-    <form  method='POST' class="gform"  target="_self"
+    <form  method='POST' class="gform"  target="self" id='form_id' 
+    action='https://script.google.com/macros/s/AKfycbz5eMi-3xklbB98qY9UPLNhjTYDBM9IbpPfDYNKId702t0ZVp7mXzCWi3clpY4xfOBO/exec'
+    data-email = "abdelwahabadam014@gmail.com"
    
     
     >
@@ -398,7 +417,7 @@ so support us with your feedback to bring most out of effort to statisfy your ne
     </div>
     <div>
       
-    <input type="email" className="form-control" placeholder="Enter E-mail" id="email" required/>
+    <input type="email" className="form-control" placeholder="Enter E-mail"  name="email" id="email" required/>
     </div>
     <textarea  class="form-control" placeholder='Your Message'  name="message"  required ></textarea>
     <button type="submit" className="btn" id='mySubmit'>
@@ -429,15 +448,19 @@ const Layout = () => {
   return (
     <div >
 {/*navbar test*/}
-<nav class="navbar navbar-expand-lg navbar-gray bg-color fixed-top ">
-  <div class="container">
+<div className='container'>
+<nav class="navbar navbar-expand-lg navbar-gray bg-color fixed-top " id="navbar_id">
+  <div className="container">
     <a class="navbar-brand" href="#">
-      <img src="./logo.png" className='round_logo' alt="logo" height="70"/>
+      <img src="./logo.png" className='round_logo' alt="logo" height="50"/>
     </a>
+
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
       <span class="navbar-toggler-icon"></span>
     </button>
+
+   
 
 
   
@@ -462,6 +485,7 @@ const Layout = () => {
     </div>
   </div>
 </nav>
+</div>
 {/*navbar test */}
 <br/>
       <Home/>
@@ -512,13 +536,12 @@ const Layout = () => {
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5">
-                        <p class="copyright text-uppercase">Copyright © ALBATROS Co.ltd
+                    <div class="col-5">
+                        © ALBATROS Co.ltd
                          
-                        </p>
-                        
+                      
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                         <ul >
                            <li class="nav-item "><a  className='below_navbar' href="#home">HOME</a></li>
                            <li class="nav-item "><a   className='below_navbar' href="#services">SERVICES</a></li>
