@@ -111,25 +111,29 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
   <br/> 
 
  <div className='row'>
-<div className='col-6 col-md-6 col-lg-3' > 
-  <img className='fa-shake icon_delay'
-   src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Message-mobile-application-color-line-others-cattaleeya-thongsriphong.png"/>
-  <u data-toggle="tooltip" data-placement="top"
-   title="Short Message Service"><i class="fa-solid fa-message-sms "></i>SMS</u></div>
 
-<div className='col-6 col-md-6 col-lg-3'> 
-<img className='fa-beat icon_delay' src="https://img.icons8.com/arcade/64/000000/experimental-medium-volume-arcade.png"/>
+
+<div className='col-6 col-6 col-lg-3' > 
+<i className="fa-solid fa-comment-sms fa-beat icon_delay fa-3x"></i>
+<u data-toggle="tooltip" data-placement="top" title="Short Message Service">SMS</u> 
+
+
+
+  </div>
+
+<div className='col-6 col-6 col-lg-3'> 
+ <i class="fa-solid fa-phone-volume fa-beat icon_delay fa-3x"></i>
 <u data-toggle="tooltip" data-placement="top" title="ring back tone">RBT</u> </div>
  
 
- <div className='col-6 col-md-6 col-lg-3 mt-3'> 
-<img className='fa-beat icon_delay' src="https://img.icons8.com/external-flaticons-flat-circular-flat-icons/64/000000/external-ivr-automation-technology-flaticons-flat-circular-flat-icons.png"/>
-<u data-toggle="tooltip" data-placement="top" title="interactive voice response"> IVR</u> </div>
+ <div className='col-6 col-6 col-lg-3 mt-3'> 
+ <i class="fa-solid fa-video fa-beat icon_delay fa-3x"> </i>
+<u data-toggle="tooltip" data-placement="top" title="interactive voice response"> Videos</u> </div>
 
 
-<div className='col-6 col-md-6 col-lg-3 mt-3'> 
-<img className='fa-beat icon_delay' src="https://img.icons8.com/nolan/64/video.png"/>
-<u data-toggle="tooltip" data-placement="top" title="Games and Videos"> Digital Content</u> </div>
+<div className='col-6 col-6 col-lg-3 mt-3'> 
+ <i class="fa-solid fa-dice fa-beat icon_delay fa-3x"></i>
+<u data-toggle="tooltip" data-placement="top" title="Games and Videos"> Games</u> </div>
  
  </div>
 
