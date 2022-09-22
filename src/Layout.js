@@ -192,28 +192,28 @@ const Services = () => {
 
 <div className="reveal fade-bottom  col-6 col-md-6 col-lg-3">
 <figure class="figure">
-  <a href="http://tagpress.sd/" target="blank"><img src="./Tagpres_sudani.png"  alt="Tagpres sudani" /></a>
+  <a href="http://tagpress.sd/" target="blank"><img  src="./images/Tagpress-Sudani.jpg"  className='la3btna' alt="Tagpres sudani" /></a>
   <figcaption class="figure-caption text-center">Sudani</figcaption>
 </figure>
  </div>
 
   <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
   <figure class="figure">
-  <a href="http://la3btna.com/" target="blank"><img src="./operators/sudanil.png"  className='la3btna' alt="La3btna sudani" /></a>
+  <a href="http://la3btna.com/" target="blank"><img  src="./images/L3btna_Sudani.jpg"  className='la3btna' alt="La3btna sudani" /></a>
   <figcaption class="figure-caption text-center">Sudani</figcaption>
 </figure>
 </div>
   
 <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
 <figure class="figure">
-  <a href="http://tagpres.com/" target="blank"><img src="./operators/Tagpres_zain.jpeg"  className='la3btna' alt="Tagpres zain" /></a>
+  <a href="http://tagpres.com/" target="blank"><img  src="./images/Tagpress_Zain.jpg"  className='la3btna' alt="Tagpres zain" /></a>
   <figcaption class="figure-caption text-center">Zain</figcaption>
 </figure>
 </div>
 
   <div className="reveal fade-bottom col-6 col-md-6 col-lg-3">
   <figure class="figure">
-  <a href="http://41.95.192.128/GamePortalZain/index.php" target="blank"><img src="./operators/la3btna_zain.jpeg"  className='la3btna' alt="La3btna zain" /></a>
+  <a href="http://41.95.192.128/GamePortalZain/index.php" target="blank"><img  src="./images/L3btna-Zain.jpg"  className='la3btna' alt="La3btna zain" /></a>
   <figcaption class="figure-caption text-center">Zain</figcaption>
 </figure>
  </div>
