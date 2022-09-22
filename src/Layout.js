@@ -192,7 +192,7 @@ const Services = () => {
 
 <div className="reveal fade-bottom  col-6 col-md-6 col-lg-3">
 <figure class="figure">
-  <a href="http://tagpress.sd/" target="blank"><img  src="./images/Tagpress-Sudani.jpg"  className='la3btna' alt="Tagpres sudani" /></a>
+  <a href="http://tagpress.sd/" target="_blank"><img  src="./images/Tagpress-Sudani.jpg"  className='la3btna' alt="Tagpres sudani" /></a>
   <figcaption class="figure-caption text-center">Sudani</figcaption>
 </figure>
  </div>

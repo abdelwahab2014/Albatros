@@ -23,11 +23,13 @@
 
 @media (max-width: 800px) {
   .img_row_ser{padding-left: 100px;padding-right: 100px;}
+  
   }
 
 
 @media (max-width: 600px) {
       .img_row_ser{padding-left: 50px;padding-right: 50px;}
+      .la3btna{width: 10px; height: 10px;}
       }
 
 @media (max-width: 500px) {
@@ -56,7 +58,15 @@
 
 
 .figure-caption{margin-top: 10px; color: black; font-weight: bold; text-align: center; }
-.la3btna{width: 230px; height: 200px; background-color: red;}
+.la3btna{width: 230px; height: 200px;}
+
+@media (max-width: 1200px) {
+  .la3btna{width: 200px; height: 180px;}
+  }
+
+@media (max-width: 1100px) {
+    .la3btna{width: 150px; height: 160px;}
+    }
 
 .icon-container1 {
   display: inline-block;
@@ -137,6 +147,7 @@ section .text-container .text-box h3 {
   section .text-container {
     flex-direction: column;
   }
+  
 }
 
 
